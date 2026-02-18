@@ -32,7 +32,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
         // web worker
         PACKAGE_PATH = encodeURIComponent(location.pathname.toString().substring(0, location.pathname.toString().lastIndexOf('/')) + '/');
       }
-      var PACKAGE_NAME = 'simearth-plaedit/dist/main.data';
+      var PACKAGE_NAME = 'dist/main.data';
       var REMOTE_PACKAGE_BASE = 'main.data';
       if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
         Module['locateFile'] = Module['locateFilePackage'];
